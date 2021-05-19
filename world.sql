@@ -5425,6 +5425,11 @@ select * from country where SurfaceArea like '2000%';
 insert into country (code,name,Continent,Region,SurfaceArea,Population ,LocalName,GovernmentForm,Code2) 
 values ('KOS','Kosovo','Europe','Regija',2000,120000,'Kosovo','Nesto','KS');
 
+select * from city where Population like '150000';
+
 insert into city (Name,CountryCode,District,Population) 
 values ('Priština','KOS','Kosovo',150000);
+
+update city set name='Priština Donja' where id =4080;
+
 
