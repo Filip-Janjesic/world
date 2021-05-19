@@ -5422,8 +5422,6 @@ SET AUTOCOMMIT=1;
 
 select * from country where SurfaceArea like '2000%';
 
-
-
 insert into country (code,name,Continent,Region,SurfaceArea,Population ,LocalName,GovernmentForm,Code2) 
 values ('KOS','Kosovo','Europe','Regija',2000,120000,'Kosovo','Nesto','KS');
 
