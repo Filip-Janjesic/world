@@ -5433,4 +5433,6 @@ values ('Priština','KOS','Kosovo',150000);
 update city set name='Priština Donja' where id =4080;
 
 delete from city where ID=4080;
+delete from city where ID=4081;
 
+delete from country where Code='KOS';
